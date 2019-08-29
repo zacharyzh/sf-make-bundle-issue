@@ -1,0 +1,13 @@
+App\Entity\User:
+    type: entity
+    table: app_user
+    id:
+        id:
+            type: string
+            length: 36
+            nullable: false
+    fields:
+        name:
+            type: string
+            length: 36
+            nullable: false
